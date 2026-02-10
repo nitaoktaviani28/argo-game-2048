@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: game-2048-service
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: game-2048
   ports:
